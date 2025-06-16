@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: ANYA-pair-site
+    env: docker
+    plan: free
+    branch: main
+    repo: https://github.com/lafouine/Jxteme
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
