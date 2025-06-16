@@ -4,6 +4,6 @@ services:
     env: docker
     plan: free
     branch: main
-    repo: https://github.com/lafouine/Jxteme
+    repo: https://github.com/lafouine/ANYA_MD
     dockerfilePath: ./Dockerfile
     autoDeploy: true
